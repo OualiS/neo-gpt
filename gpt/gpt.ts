@@ -27,6 +27,7 @@ const talk = async (transcript : string) => {
 }
 
 const resetPrompt = () => {
+  console.log('prompt reseted')
   prompt = initalPrompt
 }
 

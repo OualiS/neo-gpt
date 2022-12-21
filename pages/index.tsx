@@ -1,7 +1,6 @@
+import Neo from "../components/neo";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import Dictaphone from "../components/dictaphone";
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +11,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-text">
-        <span className="">N</span>
-        <span className="">eo</span>
+        <span className="">Neo</span>
       </h1>
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <Dictaphone />
+      <main
+        suppressHydrationWarning={true}
+        className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center"
+      >
+        <Neo />
       </main>
 
       <footer className="flex h-24 w-full items-center justify-center border-t">
