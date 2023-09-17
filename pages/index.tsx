@@ -13,10 +13,7 @@ const Home: NextPage = () => {
       <h1 className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-text">
         <span className="">Neo</span>
       </h1>
-      <main
-        suppressHydrationWarning={true}
-        className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center"
-      >
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <Neo />
       </main>
 
