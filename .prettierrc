@@ -1,0 +1,8 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "trailingComma": "none",
+  "printWidth": 130,
+  "tabWidth": 4,
+  "overrides": [{ "files": "*.xml", "options": { "tabWidth": 4 } }]
+}
